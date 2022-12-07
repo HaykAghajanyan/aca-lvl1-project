@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS project</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+<header class="header">
+    <ul class="header-nav">
+        <li class="header-nav-item">HOME</li>
+        <li class="header-nav-item">CONTENT</li>
+        <li class="header-nav-item">ABOUT</li>
+        <li class="header-nav-item">CONTACT US</li>
+    </ul>
+</header>
+<main class="main-container">
+    <form id="form" onsubmit="onSubmit(event)">
+        <label class="form-label" for="name">
+            NAME
+            <input class="form-input" id="name" type="text">
+        </label>
+        <label class="form-label" for="email">
+            EMAIL
+            <input class="form-input" id="email" type="text">
+        </label>
+        <label class="form-label" for="login">
+            LOGIN
+            <input class="form-input" id="login" type="text">
+        </label>
+        <label class="form-label" for="password">
+            PASSWORD
+            <input class="form-input" id="password" type="password">
+        </label>
+        <button class="btn-submit" type="submit">Submit</button>
+    </form>
+</main>
+
+</body>
+</html>
